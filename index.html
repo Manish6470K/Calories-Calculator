@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calories Calculator</title>
+    <link rel="stylesheet" href="css/mdb.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="screen">
+        <div class="box">
+            <h2 class="text-center">-- Calories Identifier --</h2>
+            <br>
+            <div class="input">
+                <input type="text" class="form-control w-25" id="input" placeholder="Enter Food Name">&nbsp;&nbsp;&nbsp;
+                <div class="btn btn-info" id="get">GET</div>
+            </div>
+            <div class="display px-5 pt-2" id="data">
+                <div id="processShow"></div>
+                <div id="dataShow">
+                    <h3 class="text-center py-3" id="title"></h3>
+                    <div class="row">
+                        <div class="col col-6">
+                            Calories : <span id="calories"></span>
+                        </div>
+                        <div class="col col-6">
+                            Carbohydrates (Gram) : <span id="carbohydrates_total_g"></span>
+                        </div>
+                        <div class="col col-6">
+                            Cholesterol (Milligram) : <span id="cholesterol_mg"></span>
+                        </div>
+                        <div class="col col-6">
+                            Fat Saturated (Gram) : <span id="fat_saturated_g"></span>
+                        </div>
+                        <div class="col col-6">
+                            Fat Total (Gram) : <span id="fat_total_g"></span>
+                        </div>
+                        <div class="col col-6">
+                            Fiber (Gram) : <span id="fiber_g"></span>
+                        </div>
+                        <div class="col col-6">
+                            Potassium (Milligram) : <span id="potassium_mg"></span>
+                        </div>
+                        <div class="col col-6">
+                            Protein (Gram) : <span id="protein_g"></span>
+                        </div>
+                        <div class="col col-6">
+                            Serving Size (Gram) : <span id="serving_size_g"></span>
+                        </div>
+                        <div class="col col-6">
+                            Sodium (Milligram) : <span id="sodium_mg"></span>
+                        </div>
+                        <div class="col col-6">
+                            Sugar (Gram) : <span id="sugar_g"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="loader"></div>
+    
+    
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="js/mdb.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
